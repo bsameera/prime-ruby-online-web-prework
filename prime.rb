@@ -9,8 +9,8 @@ def prime?(num)
   # apply each on array 
   num_divided_with.each do |y|
     if num%y == 0 
-      return true 
+      return false  
     end
   end
-  return false
+  return true
 end
