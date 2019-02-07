@@ -1,4 +1,5 @@
 # Add  code here!
 def prime?(num)
-  divisible_by = range(2...num)
+  num_divided_with = (2...num).to_a 
+  
 end
