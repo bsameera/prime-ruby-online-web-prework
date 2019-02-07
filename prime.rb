@@ -4,7 +4,7 @@ def prime?(num)
   num_divided_with = (2...num).to_a 
   
   # apply each on array 
-  num_divided_with.each |y| do
+  num_divided_with.each do |y|
     if num%y == 0 
       return true 
     end
