@@ -2,6 +2,8 @@
 def prime?(num)
   if num==2 || num==3 
     return true 
+  elsif num==0 || num < 0 
+    return false
   end
   # makes an array of nums to be divided
   num_divided_with = (2...num).to_a 
